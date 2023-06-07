@@ -14,7 +14,7 @@ An `install.bat` script is included, this adds a context menu for all `*.dds` fi
 
 ## Use
 
-If the main script _(DirectXTex CLI.bat)_ is ran directly, it will result in onw of two errors:
+If the main script _(`DirectXTex CLI.bat`)_ is ran directly, it will result in one of two errors:
 - The main program files are missing
 - An infile has not been supplied
 
