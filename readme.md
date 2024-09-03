@@ -11,6 +11,21 @@ An `install.bat` script is included, this adds a context menu for all `*.dds` fi
 - `texassemble.exe`
 - `texconv.exe`
 - `texdiag.exe`
+### Sample Formats
+The installer will create a shell association for the following formats by default:
+- `*.apng` _(`*.png`)_
+- `*.avif`
+- `*.bmp`
+- `*.dds`
+- `*.gif`
+- `*.ico`
+- `*.jfif` _(`*.webp`)_
+- `*.jpg`
+- `*.jxr`
+- `*.png`
+- `*.tga`
+- `*.tif`
+- `*.webp`
 
 ## Use
 
