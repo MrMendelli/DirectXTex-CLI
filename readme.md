@@ -7,7 +7,7 @@ _*Note that converting existing files will overwrite them if the CLI script is u
 
 ## Installation
 
-An `install.bat` script is included, this adds a context menu for all `*.dds` files for a more fluid workflow. Be advised that this feature may not work if DDS files have been modified to be handled by some programs in the registry. The [base DirectXTex files](https://github.com/microsoft/DirectXTex/releases/latest) **are not** included in this repository or any releases, download and place the following files in the same folder as [the latest release](https://github.com/MrMendelli/DirectXTex-CLI/releases/latest):
+~~An `install.bat` script is included, this adds a context menu for all `*.dds` files for a more fluid workflow. Be advised that this feature may not work if DDS files have been modified to be handled by some programs in the registry. The [base DirectXTex files](https://github.com/microsoft/DirectXTex/releases/latest) **are not** included in this repository or any releases, download and place the following files in the same folder as [the latest release](https://github.com/MrMendelli/DirectXTex-CLI/releases/latest):
 - `texassemble.exe`
 - `texconv.exe`
 - `texdiag.exe`
@@ -25,7 +25,9 @@ The installer will create a shell association for the following formats by defau
 - `*.png`
 - `*.tga`
 - `*.tif`
-- `*.webp`
+- `*.webp`~~
+
+_**The installation script is currently broken and needs to be rewriten, __do not use for the time being.__**_
 
 ## Use
 
@@ -34,3 +36,4 @@ If the main script _(`DirectXTex CLI.bat`)_ is ran directly, it will result in o
 - An infile has not been supplied
 
 In order to use this script, either drag files onto the script directly or use the included installation script to work with files from the context menu. Multiple files can be handled with either method. If no file is supplied, an option to print the internal help documentation is presented. This script is not limited to DDS files, various image formats are supported. 
+
